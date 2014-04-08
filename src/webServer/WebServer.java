@@ -22,7 +22,7 @@ public class WebServer {
 		System.out.println("Press <CTRL>-C to exit)");
 		try {
 			
-			s = new ServerSocket(80);
+			s = new ServerSocket(SERVER_PORT_NUMBER);
 			System.out.println("Waiting for connection");
 			
 			/***
