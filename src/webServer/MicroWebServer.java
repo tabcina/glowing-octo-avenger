@@ -11,8 +11,7 @@ import java.net.Socket;
  * MicroWebServer is a tiny implementation that sets up
  * a webserver that returns a constant HTTP Response of 200
  * <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#2xx_Success">SuccessCodes</a>
- * It is a basic implementation that uses the ServerSocket class
- * @see			java.net.ServerSocket
+ * It is a basic implementation that uses the ServerSocket class.
  * various devices or onto off-screen images.
  * The aim of this class is to:
  * <ul>
@@ -21,9 +20,9 @@ import java.net.Socket;
  * <li>Process the client's request and returns a simple HTML page
  * </ul>
  * <p>
+ * @see			java.net.ServerSocket
  * 
- * 
- * @author tabci
+ * @author tabcina
  */
 
 public class MicroWebServer {
